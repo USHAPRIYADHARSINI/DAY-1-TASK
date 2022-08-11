@@ -1,0 +1,23 @@
+HTTP(HYPERTEXT TRANSFER PROTOCOL)
+	It is an application protocol for distributed, collaborative, hypermedia, information system 
+that allows user to communicate data on world wide web.
+	It is a request response protocol (client- server)
+	Uses TCP(transmission control protocol) for the connection
+	GET  and HEAD are the request methods to perform various tasks
+	
+HTTP 1.1 
+	It works on textual format
+	There is head of line blocking that blocks all the requests behind it until it dosen"t get all resources
+	It uses request resource inlining for use getting multiple pages
+	It compresses data by itself
+
+
+HTTP 2.0
+	Its the latest version than HTTP1.1
+	It works on the binary protocol
+	It allows multiplexing so one TCP connection is required for multiple requests
+	It uses PUSH frame by server that collects all multiple pages
+	It uses HPACK for data compression
+
+Therefore, HTTP 2.0 provides with the better and fast result.
+
